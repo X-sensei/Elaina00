@@ -2,7 +2,7 @@ module.exports = {
   name: "help",
   alias: ["menu", "h", "helpm", "helpmenu"],
   desc: "Gives all bot commands list",
-  react: "✨",
+  react: "💖",
   category: "Core",
   start: async (Miku, m, {prefix,pushName,NSFWstatus,args,commands,text}) => {
 
@@ -41,7 +41,7 @@ Here's the list of my Commands.\n
 ├
 ├・🎐 ʜɪ, ʜᴇʟᴘ, 
 ├・🎐 ᴄᴏᴜᴘʟᴇᴘᴘ, ᴏᴡɴᴇʀ, 
-├・🎐 ꜱᴄʀɪᴘᴛ, ꜱᴛᴀʟᴋ, 
+├・🎐 ᴇʟᴀɪɴᴀ, ꜱᴛᴀʟᴋ, 
 ├・🎐 ꜱᴜᴘᴘᴏʀᴛ, ʀᴀɴᴋ
 ├
 ╰──────────────────╯
