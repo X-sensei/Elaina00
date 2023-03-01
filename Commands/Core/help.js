@@ -27,11 +27,13 @@ if (args[0]) {
             return Miku.sendMessage(m.from,buth,{quoted:m})
         } else {
 
-let textHelpMenu = `Konnichiwa *${pushName}* Senpai,
-
-I am *${botName}*, a bot developed by *Team Atlas & Reverse engineered by Ronen*.
-
-🎀 My prefix is: *${prefix}*
+let textHelpMenu = `  ╭─「(💙^💙」
+│⋊ 𝕌𝕤𝕖𝕣: *${pushName}*
+│⋊ ℕ𝕒𝕞𝕖: *${botName}*
+│⋊ ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
+│⋊ 𝕆𝕨𝕟𝕖𝕣: *Ronen*
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://surl.li/eumln
+╰────────────┈エリーナ  
 
 Here's the list of my Commands.\n
              
