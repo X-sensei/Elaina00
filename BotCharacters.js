@@ -37,7 +37,7 @@ global.charID0 = {
     botVideo : fs.readFileSync("./Assets/atlas.mp4"),
     botImage1 : "https://telegra.ph/file/9312bb577917d4beacabf.jpg",
     botImage2 : "https://images7.alphacoders.com/111/1114169.jpg",
-    botImage3 : "https://telegra.ph/file/f77084405be06cb9083b9.jpg,
+    botImage3 : "https://telegra.ph/file/9312bb577917d4beacabf.jpg,
     botImage4 : "https://telegra.ph/file/f2b086ce94a9c62531997.jpg",
     botImage5 : "https://images6.alphacoders.com/118/1189715.jpg",
     botImage6 : "https://telegra.ph/file/8923223ce05cc795f8479.jpg",
