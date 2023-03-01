@@ -11,9 +11,9 @@ module.exports = {
   start: async (
     Miku,
     m,
-    { text, prefix, isBotAdmin, isAdmin, participants, args }
+    { text, prefix, isBotAdmin, isCreator, isAdmin, participants, args }
   ) => {
-    if (!isAdmin)
+    if (!isAdmin && !isCreator)
       return Miku.sendMessage(m.from, { text: `Only *Admins* can use this command.` }, { quoted: m });
 
     let message = args ? args.join(' ') :  m.quoted ? m.quoted.msg : 'No Message';
