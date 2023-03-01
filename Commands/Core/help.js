@@ -258,7 +258,7 @@ textHelpMenu +=`*🔰  ${botName}  🔰*
 let buttons = [
     {
       buttonId: `${prefix}repo`,
-      buttonText: { displayText: "Source Code" },
+      buttonText: { displayText: "Elaina" },
       type: 1,
     },
     {
