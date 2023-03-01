@@ -18,7 +18,7 @@ module.exports = {
       { args, isBotAdmin, isAdmin, isCreator, reply,prefix,pushName }
     ) => {
       
-        if (!isAdmin)
+        if (!isAdmin && !isCreator)
         return Miku.sendMessage(
           m.from,
           {
