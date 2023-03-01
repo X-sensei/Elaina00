@@ -2,8 +2,8 @@ const axios = require('axios')
 const fs = require('fs')
 
 module.exports = {
-    name: "script",
-    alias: ["repo","sc","sourcecode"],
+    name: "elaina",
+    alias: ["Elaina"],
     desc: "Say hello to bot.",
     react: "🍁",
     category: "Core",
@@ -15,7 +15,7 @@ module.exports = {
         
         Hii! I'm Elaina a whatsapp bot, Developed by Atlas and Reverse engineered by Ronen to make your whatsapp more enjoyable and to do everything possible on whatsapp.
         
-💜 *Our official support group* : https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
+💜 *Our official support group* : http://surl.li/eumln
 🐨 *My YouTube* : https://youtube.com/c/RonenAMVs
 🔖 *Website* : Coming soon...
 
