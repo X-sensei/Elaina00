@@ -11,12 +11,12 @@ module.exports = {
   start: async (
     Miku,
     m,
-    { text, prefix, isBotAdmin, isAdmin, mentionByTag,pushName}
+    { text, prefix, isCreator isBotAdmin, isAdmin, mentionByTag,pushName}
   ) => {
     if (!text && !m.quoted) return m.reply(`Please tag a user to *Remove* from group!`)
     if (!isAdmin) return Miku.sendMessage(m.from, { text: mess.useradmin }, { quoted: m });
 
-    if (!text && !m.quoted) {
+    if (!text && !isCreator && !m.quoted) {
       return Miku.sendMessage(
         m.from,
         { text: `Please tag a user to *Remove* !` },
