@@ -35,7 +35,7 @@ Image Source: https://wallpapercave.com/
 global.charID0 = {
     botName : "Elaina",
     botVideo : fs.readFileSync("./Assets/atlas.mp4"),
-    botImage1 : "https://telegra.ph/file/9312bb577917d4beacabf.jpg",
+    botImage1 : "https://telegra.ph/file/8923223ce05cc795f8479.jpg",
     botImage2 : "https://images7.alphacoders.com/111/1114169.jpg",
     botImage3 : "https://images7.alphacoders.com/111/1114169.jpg,
     botImage4 : "https://telegra.ph/file/f2b086ce94a9c62531997.jpg",
